@@ -1,0 +1,10 @@
+ANTES DE PUBLICAR ESTA VERSÃO
+
+1. No Supabase, abrir SQL Editor.
+2. Abrir o ficheiro supabase_migration_v5.sql deste projeto.
+3. Copiar todo o conteúdo, colar no SQL Editor e executar RUN.
+4. Só depois enviar estes ficheiros para o GitHub/Vercel.
+
+A migração não apaga os dados existentes. Adiciona:
+- percentagem de venda individual por craft;
+- tabela craft_tables para guardar mesas novas, nome, cor e ordem.
